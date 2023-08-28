@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900);
+p {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100%!important;
+    background-image: radial-gradient(#028ab7, #0b2960);
+    font-size: 14pt!important;
+    letter-spacing: .5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    padding: 0;
+    margin: 0;
+    font-weight: 900
+}
+
+.bg-blue {
+    background-color: #030f45
+}
+
+.bg-blue-opacity {
+    background-image: linear-gradient(90deg, #030f45, rgba(3, 15, 69, 0))
+}
+
+.section-time {
+    padding: 10px
+}
+
+.footer {
+    width: 100%;
+    padding: 10px;
+    background-color: #030f45;
+    color: white;
+    position: absolute;
+    bottom: 0
+}
+
+table {
+    font-size: 14pt!important;
+    width: 100%
+}
+
+#table-header table {
+    margin-bottom: 0
+}
+
+.header thead {
+    text-align: center
+    font-size:16pt!important;
+}
+
+.header thead tr {
+    color: white
+}
+
+.header thead tr:nth-child(odd) {
+    background-color: #030f45
+}
+
+.header thead tr:nth-child(even) {
+    background-image: linear-gradient(to right, #0b2960, #028ab7, #0b2960)
+}
+
+.header thead tr th {
+    padding: 10px 0
+}
+
+table#tableisi {
+    position: absolute
+}
+
+#table-content {
+    height: 53vh;
+    position: relative;
+    overflow-y: hidden;
+    max-width: 100%!important
+}
+
+#table-content tbody#tbody {
+    color: black
+}
+
+#table-content tbody#tbody tr {
+    height: 70px!important
+}
+
+#table-content tbody#tbody tr td {
+    padding: 10px 5px;
+    vertical-align: middle
+}
+
+@media screen and (min-height:768px) {
+    #table-content {
+        height: 60vh
+    }
+}
+
+.active {
+    background-color: #acd7e6!important;
+    transition: all ease-in-out .3s
+}
+
+.active td:last-child {
+    position: relative
+}
+
+.shadow {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .3)
+}
+
+.animatetop {
+    transition: top ease-in-out .3s
+}
+
+.active-image {
+    display: unset!important;
+    transition: all ease-in-out .3s
+}
+
+.image-item {
+    display: none;
+    transition: all ease-in-out .3s
+}
+
+.element {
+    visibility: hidden;
+}
+
+.element:-webkit-full-screen {
+    visibility: visible;
+}
+
+.element:-moz-full-screen {
+    visibility: visible;
+}
+
+.element:-ms-fullscreen {
+    visibility: visible;
+}
+
+.element:fullscreen {
+    visibility: visible;
+}

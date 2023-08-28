@@ -1,0 +1,1 @@
+<a href="{{url()->previous()}}" class="btn btn-default"><i class="fas fa-pull-right mr-2"></i>Back</a>
